@@ -10,8 +10,8 @@ export function Counter() {
   };
   return (
     <>
-      <h3>This is Counter App...{count}</h3>
-      <button onClick={increment}>Increment</button>
+      <h3>This is Counter App...</h3>
+      <button onClick={increment}>Increment</button> {count}{" "}
       <button onClick={Decrement}>Decrement</button>
     </>
   );
